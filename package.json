@@ -10,5 +10,8 @@
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
+  },
+  "scripts": {
+    "start": "npx cypress run --record --key e3406b92-13c3-4944-b4ef-4d6d63065d71"
   }
 }
