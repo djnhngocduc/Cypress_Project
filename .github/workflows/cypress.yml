@@ -22,6 +22,7 @@ jobs:
           # start: npm start
           # Records to Cypress Cloud
           # https://docs.cypress.io/guides/cloud/projects#Set-up-a-project-to-record
+          command: npx cypress run --component
           record: true
           parallel: false # Runs test in parallel using settings above
           browser: chrome
